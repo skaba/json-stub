@@ -13,7 +13,7 @@ public class JsonStub
 {
 
     private static final String CONTENT_TYPE_HEADER = "Content-Type";
-    private static final String CONTENT_TYPE_JSON = "Content-Type";
+    private static final String CONTENT_TYPE_JSON = "application/json";
 
     private static WireMockConfiguration configure()
     {

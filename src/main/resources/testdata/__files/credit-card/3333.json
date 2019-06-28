@@ -1,0 +1,7 @@
+{
+	"id": "{{request.path.[1]}}",
+	"cardNumber": 5075,
+	"sequenceNumber": 1,
+	"cardHolder": "Boromir",
+	"monthlyLimit": 3000
+}

@@ -1,0 +1,15 @@
+{
+	"id": "{{request.path.[1]}}",
+	"cardNumber": 1111,
+	"cardHolder" :  "Super duper employee",
+	"sequenceNumber": 32,
+	"atmLimit": {
+		"limit": 100,
+		"periodUnit": "PER_DAY"
+	},
+	"posLimit": {
+		"limit": 10000,
+		"periodUnit": "PER_MONTH"
+	},
+	"contactless" : false
+}

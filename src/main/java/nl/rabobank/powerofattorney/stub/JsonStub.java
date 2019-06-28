@@ -30,6 +30,18 @@ public class JsonStub
                 .willReturn(aResponse()
                         .withBodyFile("static/{{request.path}}")));
 
+        stubFor(get(urlMatching("/swagger/"))
+                .willReturn(aResponse()
+                        .withBodyFile("static/swagger/index.html")));
+
+        stubFor(get(urlMatching("/index.html"))
+                .willReturn(aResponse()
+                        .withBodyFile("static/index.html")));
+
+        stubFor(get(urlMatching("/"))
+                .willReturn(aResponse()
+                        .withBodyFile("static/index.html")));
+
         // Get power of attorneys
         stubFor(get(urlMatching("/power-of-attorneys"))
                 .willReturn(

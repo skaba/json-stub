@@ -2,9 +2,9 @@
 	"id" :"{{request.path.[1]}}",
 	"grantor": "Super duper company",
 	"grantee": "Fellowship of the ring",
-	"account" : "NL23ABNA1154012735",
+	"account" : "NL23RABO123456789",
 	"direction" : "GIVEN",
-	"authorizations": ["DEBIT_CARD","CREDIT_CARD","VIEW","PAYMENT"],
+	"authorizations": ["DEBIT_CARD","VIEW","PAYMENT"],
 	"cards" : [
 		{
 			"id": "1111",

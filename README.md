@@ -19,7 +19,7 @@ This awesome web service provides REST API for accessing power of attorney infor
   - We suggest using Java 11, Spring-Boot & Maven, but using Kotlin or Gradle is also fine
   - Perform whatever validation seems necessary
   - Don't return inactive products or accounts
-  - Make sure the API is exposed over https
+  - (Optional) Expose the API over HTTPS
  
 # Tips
   - Because every candidate has different experience and background, the candidate should decide on how complex code they want to show us
